@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02DF59D223D8804C00500BC3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02DF59D123D8804C00500BC3 /* main.cpp */; };
+		02DF59DA23D8807700500BC3 /* Network.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02DF59D823D8807700500BC3 /* Network.cpp */; };
+		02DF59DD23D880A300500BC3 /* Layer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02DF59DB23D880A300500BC3 /* Layer.cpp */; };
+		02DF59E023D880B800500BC3 /* Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02DF59DE23D880B800500BC3 /* Node.cpp */; };
+		02DF59E323D880C400500BC3 /* Edge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02DF59E123D880C400500BC3 /* Edge.cpp */; };
+		02DF59E623D880CF00500BC3 /* Parameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02DF59E423D880CF00500BC3 /* Parameters.cpp */; };
+		02DF59E923D880DF00500BC3 /* DataManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02DF59E723D880DF00500BC3 /* DataManager.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		02DF59CC23D8804C00500BC3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		02DF59CE23D8804C00500BC3 /* Neural Network */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Neural Network"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02DF59D123D8804C00500BC3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		02DF59D823D8807700500BC3 /* Network.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Network.cpp; sourceTree = "<group>"; };
+		02DF59D923D8807700500BC3 /* Network.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Network.hpp; sourceTree = "<group>"; };
+		02DF59DB23D880A300500BC3 /* Layer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Layer.cpp; sourceTree = "<group>"; };
+		02DF59DC23D880A300500BC3 /* Layer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Layer.hpp; sourceTree = "<group>"; };
+		02DF59DE23D880B800500BC3 /* Node.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Node.cpp; sourceTree = "<group>"; };
+		02DF59DF23D880B800500BC3 /* Node.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Node.hpp; sourceTree = "<group>"; };
+		02DF59E123D880C400500BC3 /* Edge.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Edge.cpp; sourceTree = "<group>"; };
+		02DF59E223D880C400500BC3 /* Edge.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Edge.hpp; sourceTree = "<group>"; };
+		02DF59E423D880CF00500BC3 /* Parameters.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Parameters.cpp; sourceTree = "<group>"; };
+		02DF59E523D880CF00500BC3 /* Parameters.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Parameters.hpp; sourceTree = "<group>"; };
+		02DF59E723D880DF00500BC3 /* DataManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DataManager.cpp; sourceTree = "<group>"; };
+		02DF59E823D880DF00500BC3 /* DataManager.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DataManager.hpp; sourceTree = "<group>"; };
+		02DF59EA23D8871100500BC3 /* xor_data.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = xor_data.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02DF59CB23D8804C00500BC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02DF59C523D8804C00500BC3 = {
+			isa = PBXGroup;
+			children = (
+				02DF59D023D8804C00500BC3 /* Neural Network */,
+				02DF59CF23D8804C00500BC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02DF59CF23D8804C00500BC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02DF59CE23D8804C00500BC3 /* Neural Network */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02DF59D023D8804C00500BC3 /* Neural Network */ = {
+			isa = PBXGroup;
+			children = (
+				02DF59D123D8804C00500BC3 /* main.cpp */,
+				02DF59E423D880CF00500BC3 /* Parameters.cpp */,
+				02DF59E523D880CF00500BC3 /* Parameters.hpp */,
+				02DF59E723D880DF00500BC3 /* DataManager.cpp */,
+				02DF59E823D880DF00500BC3 /* DataManager.hpp */,
+				02DF59D823D8807700500BC3 /* Network.cpp */,
+				02DF59D923D8807700500BC3 /* Network.hpp */,
+				02DF59DB23D880A300500BC3 /* Layer.cpp */,
+				02DF59DC23D880A300500BC3 /* Layer.hpp */,
+				02DF59DE23D880B800500BC3 /* Node.cpp */,
+				02DF59DF23D880B800500BC3 /* Node.hpp */,
+				02DF59E123D880C400500BC3 /* Edge.cpp */,
+				02DF59E223D880C400500BC3 /* Edge.hpp */,
+				02DF59EA23D8871100500BC3 /* xor_data.txt */,
+			);
+			path = "Neural Network";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02DF59CD23D8804C00500BC3 /* Neural Network */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02DF59D523D8804C00500BC3 /* Build configuration list for PBXNativeTarget "Neural Network" */;
+			buildPhases = (
+				02DF59CA23D8804C00500BC3 /* Sources */,
+				02DF59CB23D8804C00500BC3 /* Frameworks */,
+				02DF59CC23D8804C00500BC3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Neural Network";
+			productName = "Neural Network";
+			productReference = 02DF59CE23D8804C00500BC3 /* Neural Network */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02DF59C623D8804C00500BC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					02DF59CD23D8804C00500BC3 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 02DF59C923D8804C00500BC3 /* Build configuration list for PBXProject "Neural Network" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02DF59C523D8804C00500BC3;
+			productRefGroup = 02DF59CF23D8804C00500BC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02DF59CD23D8804C00500BC3 /* Neural Network */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02DF59CA23D8804C00500BC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02DF59DD23D880A300500BC3 /* Layer.cpp in Sources */,
+				02DF59DA23D8807700500BC3 /* Network.cpp in Sources */,
+				02DF59E923D880DF00500BC3 /* DataManager.cpp in Sources */,
+				02DF59D223D8804C00500BC3 /* main.cpp in Sources */,
+				02DF59E623D880CF00500BC3 /* Parameters.cpp in Sources */,
+				02DF59E023D880B800500BC3 /* Node.cpp in Sources */,
+				02DF59E323D880C400500BC3 /* Edge.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		02DF59D323D8804C00500BC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		02DF59D423D8804C00500BC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		02DF59D623D8804C00500BC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		02DF59D723D8804C00500BC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02DF59C923D8804C00500BC3 /* Build configuration list for PBXProject "Neural Network" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02DF59D323D8804C00500BC3 /* Debug */,
+				02DF59D423D8804C00500BC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02DF59D523D8804C00500BC3 /* Build configuration list for PBXNativeTarget "Neural Network" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02DF59D623D8804C00500BC3 /* Debug */,
+				02DF59D723D8804C00500BC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02DF59C623D8804C00500BC3 /* Project object */;
+}
